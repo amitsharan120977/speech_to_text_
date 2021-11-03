@@ -1,0 +1,30 @@
+name: speech_to_text_example
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.14.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.3
+
+  # recording words
+  speech_to_text: ^5.1.1
+
+  # floating action button effect
+  avatar_glow: ^2.0.2
+
+  # launch apps, browser & email
+  url_launcher: ^6.0.12
+
+  # copy text to clipboard
+  clipboard: ^0.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
